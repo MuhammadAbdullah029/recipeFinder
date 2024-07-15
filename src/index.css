@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: MarkPro;
+  src: url(/public/fonts/MarkPro-Medium.b3d53906.woff2);
+}
+
+@font-face {
+  font-family: MarkPro_bold;
+  src: url(/public/fonts/MarkPro-Heavy.192477bd.woff2);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: MarkPro;
+  /* color: #28282E; */
+  color: #68414b;
+}
+
+.text{
+  font-family: MarkPro_bold;
+  line-height: 9vw;
+  letter-spacing: -.3vw;
+}
