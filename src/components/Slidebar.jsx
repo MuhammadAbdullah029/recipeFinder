@@ -20,7 +20,7 @@ const DesktopSlidebar = () => {
         <div className="flex flex-col gap-20 sticky top-10 left-0 ">
 
         <div className="w-full flex justify-center">
-            <img src="/logo.PNG" alt="logo"  className="h-[10vw] md:h-[5vw]" />
+            <img src="/image.PNG" alt="logo"  className="h-[10vw] md:h-[5vw]" />
         </div>
         <ul className="flex flex-col items-center md:items-start gap-8 ">
             <Link to={"/"} className="flex gap-2" >
